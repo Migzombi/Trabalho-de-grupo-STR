@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package Projeto;
 
 public class ConverterCelsiusAFahrenheit implements ConvertorUnidades {
@@ -9,15 +8,4 @@ public class ConverterCelsiusAFahrenheit implements ConvertorUnidades {
 	}
 	
 }
-=======
-package Projeto;
 
-public class ConverterCelsiusAFahrenheit implements ConvertorUnidades {
-
-	@Override
-	public double converter(double unid) {
-		return (unid*1.8)+32;
-	}
-	
-}
->>>>>>> 4e40235 (Codigo atualizado)

@@ -25,27 +25,27 @@ public class Main {
 					System.out.println(temp+" Celsius = "+resCF+" Fahrenheit.");
 					break;
 				case 2:
-					conv.setConvertor(new ConverterCelsiusAFahrenheit());
+					conv.setConvertor(new ConverterFahrenheitACelsius());
 					double resFC = conv.realizarCalculo(temp);
 					System.out.println(temp+" Fahrenheit = "+resFC+" Celsius.");
 					break;
 				case 3:
-					conv.setConvertor(new ConverterCelsiusAFahrenheit());
+					conv.setConvertor(new ConverterKelvinACelsius());
 					double resKC = conv.realizarCalculo(temp);
 					System.out.println(temp+" Kelvin = "+resKC+" Celsius.");
 					break;
 				case 4:
-					conv.setConvertor(new ConverterCelsiusAFahrenheit());
+					conv.setConvertor(new ConverterCelsiusAKelvin());
 					double resCK = conv.realizarCalculo(temp);
 					System.out.println(temp+" Celsius = "+resCK+" Kelvin.");
 					break;
 				case 5:
-					conv.setConvertor(new ConverterCelsiusAFahrenheit());
+					conv.setConvertor(new ConverterKelvinAFahrenheit());
 					double resKF = conv.realizarCalculo(temp);
 					System.out.println(temp+" Kelvin = "+resKF+" Fahrenheit.");
 					break;
 				case 6:
-					conv.setConvertor(new ConverterCelsiusAFahrenheit());
+					conv.setConvertor(new ConverterFahrenheitAKelvin());
 					double resFK = conv.realizarCalculo(temp);
 					System.out.println(temp+" Fahrenheit = "+resFK+" Kelvin.");
 					break;
